@@ -447,7 +447,7 @@ iframe{
     
 }
 .bhoj{
-    background: url(../images/bhojbac.jpg);
+    background: url(../images/res2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,4 +461,41 @@ iframe{
 }
 .customer_alert{
     color: var(--secondary-color);
+}
+
+
+
+/* erp header */
+#erp_header{
+    padding-top: 40px;
+}
+.erp_content h2{
+    background-color: #67d2de;
+    display: inline-flex;
+    padding: 10px ;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* content */
+#erp{
+    text-align: left;
+    padding: 3% 3% 4% 3%;
+    box-shadow: 0 64px 60px rgba(0,0,0,.07);
+}
+.head p{
+    background-color: #0779B7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.head_des{
+   
+    font-size: 20px;
+}
+.head_des ul{
+    list-style: circle;
+    text-align: left;
+    padding-top: 10px;
 }
